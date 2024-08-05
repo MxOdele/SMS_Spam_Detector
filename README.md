@@ -19,7 +19,9 @@
 
 ### *The Assignment*
 
-The Module 21 Challenge 
+The Module 21 Challenge tasked us with refactoring the code from an SMS text classification solution into a function that constructs a Linear Support Vector Classification model. From there, we were to build a Gradio app to host the application, which would allow uses to test text messages and be provided feedback as to whether their text was classified as spam or not.
+
+We were provided with the `.ipynb` files `sms_text_classification_solution.ipynb` and `gradio_sms_text_classification.ipynb`, as well as the `.csv` file `SMSSpamCollection.csv`, in our starter code. The `sms_text_classification_solution.ipynb` provided the code to be refactored into `gradio_sms_text_classification.ipynb`, and as such was placed in the `Resources/` folder of this Git Repository.
 
 ### *Written in*
 
@@ -28,6 +30,8 @@ Jupyter Notebook using Python v3.10.13, Pandas, scikit-learn, and Gradio
 ### *Accessing the notebook*
 
 To access the notebook, simply download the `.ipynb` file `gradio_sms_text_classification.ipynb`, and the `Resources` folder with the `.csv` file `SMSSpamCollection.csv`, into a local directory, then load the `gradio_sms_text_classification.ipynb` file into Jupyter Notebook through your terminal.
+
+*Note: The* `sms_text_classification_solution.ipynb` *file in the* `Resources/` *folder is unnecessary for the execution of the* `gradio_sms_text_classification.ipynb` *notebook, and may be deleted from the local directory after download*
 
 ---
 
